@@ -31,7 +31,6 @@ The objective of this project is to validate key functionalities of SauceDemo, i
 - Basic UI/Usability Testing
 
 ## Tools Used
-- Qase
 - Trello
 - GitHub
 - Google Sheets / Excel
