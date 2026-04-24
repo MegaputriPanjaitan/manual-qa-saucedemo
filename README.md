@@ -3,10 +3,15 @@
 ## Project Overview
 This project is a manual QA testing portfolio project for SauceDemo. It covers the end-to-end testing process of core user flows, including login, inventory, cart, checkout, and logout.
 
+## Application Under Test
+- **Application Name:** SauceDemo
+- **URL:** https://www.saucedemo.com/
+
 ## Objective
-The objective of this project is to validate key functionalities of SauceDemo, identify defects, and document the QA process using Qase, Trello, and GitHub.
+The objective of this project is to validate the core functionality of SauceDemo, identify defects, and document the manual QA process in a structured and professional way using Trello, GitHub, Microsoft Word, and Microsoft Excel.
 
 ## Scope
+
 ### In Scope
 - Login
 - Product inventory
@@ -21,6 +26,8 @@ The objective of this project is to validate key functionalities of SauceDemo, i
 - Security testing
 - Automation testing
 - Deep compatibility testing
+- Database validation
+- Accessibility testing in depth
 
 ## Testing Types
 - Smoke Testing
@@ -30,11 +37,17 @@ The objective of this project is to validate key functionalities of SauceDemo, i
 - Regression Testing
 - Basic UI/Usability Testing
 
+## Test Environment
+- **Browser:** Google Chrome
+- **Operating System:** Windows 11
+- **Testing Type:** Manual Testing
+
 ## Tools Used
 - Trello
 - GitHub
-- Google Sheets / Excel
-- Screenshot tool
+- Microsoft Word
+- Microsoft Excel
+- Screenshot Tool
 
 ## Deliverables
 - Test Plan
@@ -44,5 +57,33 @@ The objective of this project is to validate key functionalities of SauceDemo, i
 - Test Summary Report
 - Evidence Screenshots
 
-## Project Status
-In Progress
+## Test Execution Summary
+- **Total Test Cases:** 30
+- **Executed:** 30
+- **Passed:** 29
+- **Failed:** 1
+- **Blocked:** 0
+- **Pass Rate:** 96.7%
+
+## Defect Summary
+- **Total Defects Found:** 1
+- **Defect Type:** UI/Usability Issue
+- **Module:** Login
+- **Description:** Login error message text was partially clipped at the default window size and became fully readable only after resizing the browser window smaller.
+
+## Bug Tracking
+Bug tracking for this project was managed using Trello.
+
+- **Trello Board:** https://trello.com/invite/b/69e99ff0bb5623d4d33531d0/ATTIbcfe0a4f780e48bd1a46c1ff7733715cA56BB5B1/saucedemo-bug-tracking-board
+
+
+## Repository Structure
+```text
+manual-qa-saucedemo/
+├── README.md
+├── test-plan/
+├── test-scenarios/
+├── test-cases/
+├── bug-reports/
+├── test-summary/
+└── screenshots/
