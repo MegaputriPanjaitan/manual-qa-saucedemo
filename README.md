@@ -83,6 +83,5 @@ manual-qa-saucedemo/
 ├── test-plan/
 ├── test-scenarios/
 ├── test-cases/
-├── bug-reports/
-├── test-summary/
+├── test-reports/
 └── screenshots/
