@@ -53,8 +53,7 @@ The objective of this project is to validate the core functionality of SauceDemo
 - Test Plan
 - Test Scenarios
 - Test Cases
-- Bug Reports
-- Test Summary Report
+- Test Report
 - Evidence Screenshots
 
 ## Test Execution Summary
